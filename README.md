@@ -9,3 +9,5 @@
 2. Eclipse: 4.21
 3. Java: 1.8
 4. Springframework: 3.1.1.RELEASE
+5. Tomcat: 8.5
+6. MySQL: 8.0.34
