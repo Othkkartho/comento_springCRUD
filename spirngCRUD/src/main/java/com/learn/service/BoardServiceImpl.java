@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import com.learn.domain.BoardVO;
 import com.learn.persistence.BoardDAO;
 
+@Service
 public class BoardServiceImpl implements BoardService {
 	@Inject
 	private BoardDAO dao;
