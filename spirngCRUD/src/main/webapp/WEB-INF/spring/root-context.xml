@@ -16,7 +16,7 @@
 	<bean id="dataSource"
         class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3307/springcruddb?useSSL=false&amp;allowPublicKeyRetrieval=true"/>
+        <property name="url" value="jdbc:mysql://localhost:3307/springcruddb?characterEncoding=UTF-8&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"/>
         <property name="username" value="learner"/>
         <property name="password" value="learnerpw"/>
     </bean>
