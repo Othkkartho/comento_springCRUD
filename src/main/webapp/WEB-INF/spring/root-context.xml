@@ -15,10 +15,10 @@
 	
 	<bean id="dataSource"
         class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3307/springcruddb?characterEncoding=UTF-8&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"/>
-        <property name="username" value="learner"/>
-        <property name="password" value="learnerpw"/>
+        <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+        <property name="username" value="learn"/>
+        <property name="password" value="learnpw"/>
     </bean>
     
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
